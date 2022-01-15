@@ -11,18 +11,18 @@ last update on 12th April 2020
 
 
 
-A quick way to look up the TOKEN with dnSpy:
-01- Open dnSpy
-02-Load Assembly-CSharp.dll  //Assembly Cleaner for Escape From Tarkov!-dnspy-1-png
-03-Press Ctrl+Shift+K for Assembly Search
-04-Type in Assembly.GetExecutingAssembly  //-Assembly Cleaner for Escape From Tarkov!-dnspy-2-png
-05-Pick one with type of SystemReflection.Assembly
-06-Right-click on it and pick Analyze  //Assembly Cleaner for Escape From Tarkov!-dnspy-3-png
-07- Expand Used By
-08- Look for \uXXXX:..cctor    //Assembly Cleaner for Escape From Tarkov!-dnspy-4-png
-09-Pick one that is in the Assembly-CSharp.dll
-10-Method immediately after it containing the GetData call is the method  //Assembly Cleaner for Escape From Tarkov!-dnspy-5-png
+A quick way to look up the TOKEN with dnSpy:<br>
+01- Open dnSpy<br>
+02-Load Assembly-CSharp.dll  //Assembly Cleaner for Escape From Tarkov!-dnspy-1-png<br>
+03-Press Ctrl+Shift+K for Assembly Search<br>
+04-Type in Assembly.GetExecutingAssembly  //-Assembly Cleaner for Escape From Tarkov!-dnspy-2-png<br>
+05-Pick one with type of SystemReflection.Assembly<br>
+06-Right-click on it and pick Analyze  //Assembly Cleaner for Escape From Tarkov!-dnspy-3-png<br>
+07- Expand Used By<br>
+08- Look for \uXXXX:..cctor    //Assembly Cleaner for Escape From Tarkov!-dnspy-4-png<br>
+09-Pick one that is in the Assembly-CSharp.dll<br>
+10-Method immediately after it containing the GetData call is the method  //Assembly Cleaner for Escape From Tarkov!-dnspy-5-png<br>
 
-
-refere: 
-https://www.unknowncheats.me/forum/escape-from-tarkov/381749-assembly-cleaner-escape-tarkov.html
+<br><br>
+refere: <br>
+https://www.unknowncheats.me/forum/escape-from-tarkov/381749-assembly-cleaner-escape-tarkov.html<br>
