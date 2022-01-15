@@ -12,21 +12,16 @@ last update on 12th April 2020
 
 
 A quick way to look up the TOKEN with dnSpy:
-    Open dnSpy
-    Load Assembly-CSharp.dll
-    Assembly Cleaner for Escape From Tarkov!-dnspy-1-png
-    Press Ctrl+Shift+K for Assembly Search
-    Type in Assembly.GetExecutingAssembly
-    Assembly Cleaner for Escape From Tarkov!-dnspy-2-png
-    Pick one with type of SystemReflection.Assembly
-    Right-click on it and pick Analyze
-    Assembly Cleaner for Escape From Tarkov!-dnspy-3-png
-    Expand Used By
-    Look for \uXXXX:..cctor
-    Assembly Cleaner for Escape From Tarkov!-dnspy-4-png
-    Pick one that is in the Assembly-CSharp.dll
-    Method immediately after it containing the GetData call is the method
-    Assembly Cleaner for Escape From Tarkov!-dnspy-5-png
+01- Open dnSpy
+02-Load Assembly-CSharp.dll  //Assembly Cleaner for Escape From Tarkov!-dnspy-1-png
+03-Press Ctrl+Shift+K for Assembly Search
+04-Type in Assembly.GetExecutingAssembly  //-Assembly Cleaner for Escape From Tarkov!-dnspy-2-png
+05-Pick one with type of SystemReflection.Assembly
+06-Right-click on it and pick Analyze  //Assembly Cleaner for Escape From Tarkov!-dnspy-3-png
+07- Expand Used By
+08- Look for \uXXXX:..cctor    //Assembly Cleaner for Escape From Tarkov!-dnspy-4-png
+09-Pick one that is in the Assembly-CSharp.dll
+10-Method immediately after it containing the GetData call is the method  //Assembly Cleaner for Escape From Tarkov!-dnspy-5-png
 
 
 refere: 
